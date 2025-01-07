@@ -11,8 +11,8 @@ const { data: chapter } = await useFetch(`/api/classics/${route.params.id}/${rou
       </h1>
 
       <div class="prose-lg max-w-none text-ink prose">
-        <p class="indent-2em">
-          {{ chapter?.content }}
+        <p v-for="(paragraph, index) in chapter?.contents" :key="index" class="indent-2em">
+          {{ paragraph }}
         </p>
       </div>
     </div>

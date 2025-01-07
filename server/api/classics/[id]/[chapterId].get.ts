@@ -22,7 +22,7 @@ export default defineEventHandler((event) => {
   const classic = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
 
   // 查找对应章节
-  const chapter = classic.chapters.find((c: Chapter) => c.id === chapterId)
+  const chapter: Chapter | undefined = classic.chapters.find((c: Chapter) => c.id === chapterId)
 
   if (!chapter) {
     throw createError({

@@ -2,7 +2,6 @@ export interface BasicType {
   id: string
   title: string
   author: string
-  content: string
   image?: string
 }
 
@@ -30,7 +29,7 @@ export interface ClassicChapter {
 export interface Chapter {
   id: number
   chapter: string
-  content: string
+  contents: string[]
   sections?: Array<{
     id: number
     title: string

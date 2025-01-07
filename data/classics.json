@@ -8,11 +8,13 @@
   {
     "id": 2,
     "title": "道德经",
-    "author": "老子"
+    "author": "老子",
+    "image": "/data/道德经.png"
   },
   {
     "id": 3,
     "title": "诗经",
-    "author": "佚名"
+    "author": "佚名",
+    "image": "/data/诗经.png"
   }
 ]
