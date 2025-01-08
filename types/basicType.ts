@@ -30,9 +30,4 @@ export interface Chapter {
   id: number
   chapter: string
   contents: string[]
-  sections?: Array<{
-    id: number
-    title: string
-    content: string
-  }>
 }

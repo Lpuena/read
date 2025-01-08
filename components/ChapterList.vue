@@ -1,10 +1,8 @@
 <script setup lang="ts">
+import type { Chapter } from '~/types/basicType'
+
 defineProps<{
-  chapters?: Array<{
-    id: number
-    chapter: string
-    sections?: Array<unknown>
-  }>
+  chapters?: Chapter[]
   classicId?: string | string[]
 }>()
 </script>
@@ -25,7 +23,7 @@ defineProps<{
               {{ chapter.chapter }}
             </h2>
             <div class="text-sm text-gray-500">
-              共 {{ chapter.sections?.length || 0 }} 节
+              共 {{ chapter.contents?.length || 0 }} 节
             </div>
           </div>
         </div>
