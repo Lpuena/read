@@ -1,9 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    '@nuxt/eslint',
-    '@unocss/nuxt',
-  ],
+  modules: ['@nuxt/eslint', '@unocss/nuxt'],
+  runtimeConfig: {
+    public: {
+      baseURL: '/',
+    },
+  },
   css: [
     '@unocss/reset/tailwind.css',
   ],
