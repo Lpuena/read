@@ -3,10 +3,10 @@
 </script>
 
 <template>
-  <footer class="mt-8 bg-gray-50 py-6">
+  <footer class="mt-16 border-t border-gray-200/50 py-8">
     <div class="mx-auto px-4 container">
-      <p class="text-center text-gray-600">
-        &copy; 2024 Your Company. All rights reserved.
+      <p class="text-center text-gray-500 transition-colors hover:text-gray-700">
+        &copy; 2024 经典阅读. All rights reserved.
       </p>
     </div>
   </footer>
