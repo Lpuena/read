@@ -3,18 +3,18 @@
     "id": 1,
     "title": "论语",
     "author": "孔子及其弟子",
-    "image": "/assets/论语.png"
+    "image": "/论语.png"
   },
   {
     "id": 2,
     "title": "道德经",
     "author": "老子",
-    "image": "/assets/道德经.png"
+    "image": "/道德经.png"
   },
   {
     "id": 3,
     "title": "诗经",
     "author": "佚名",
-    "image": "/assets/诗经.png"
+    "image": "/诗经.png"
   }
 ]
